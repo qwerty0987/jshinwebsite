@@ -1,6 +1,8 @@
 Jshinwebsite::Application.routes.draw do
-  get "pages/home"
-  get "pages/contact"
+  root 'pages#home'
+  match '/home', to: 'pages#home', via: 'get'
+  match '/contact', to: 'pages#contact', via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
