@@ -8,8 +8,8 @@ body {
 #home {
   overflow: hidden;
   background-image: url("bg_img.jpg");
+  background-size: cover;
   background-repeat:no-repeat;
-/*  background-attachment:fixed; */
   padding: 140px 0 0px;
 }
 
@@ -21,8 +21,7 @@ body {
 }
 
 #content_wrap {
-  background: rgba(0,0,0,0.18);
-  /* padding: 2em 0em 2em 8em; */
+  background: rgba(0,0,0,0.10);
   padding: 1.5em 0em;
   font-size: 1.5em;
   font-family: 'Quicksand', sans-serif;
